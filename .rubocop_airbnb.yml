@@ -1,0 +1,5 @@
+require:
+  - rubocop-airbnb
+
+  # $ bundle exec rubocop --require rubocop-airbnb -a {解析対象ファイル}
+  # で指定することも可能

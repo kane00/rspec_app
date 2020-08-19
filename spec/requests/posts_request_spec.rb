@@ -6,6 +6,7 @@ RSpec.describe "Posts", type: :request do
       before do
         get posts_new_path
       end
+
       it 'リクエストは200 OKとなること' do
         expect(response.status).to eq 200
       end
@@ -16,7 +17,6 @@ RSpec.describe "Posts", type: :request do
     end
   end
 end
-
 
 # コードの解説：
 # describe：PostsControllerをテスト対象にすることを示している。
